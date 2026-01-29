@@ -126,10 +126,9 @@ export const MacbookPro = (): JSX.Element => {
                 Hollanda FairFoods LTD
               </div>
               <div className="[font-family:'Barlow',Helvetica] font-normal text-black text-base sm:text-lg md:text-xl tracking-[0] leading-relaxed text-center lg:text-left lg:text-[18px]">
-                Warehouse: KG 173 st, Kigali- Remera
+                Kigali Office:KK 261 St-Kigali
                 <br></br>
-                Opposite Grand Legacy Hotel Main office: KG 622 st, House 3<br></br>
-                Factory: Musanze Gyanika Road
+                Factory: Musanze-Cyanika Road
                 <br></br><br></br>
                 Tel: +250780050540<br></br>
                 Email: customerservice@hollandafairfoods.com

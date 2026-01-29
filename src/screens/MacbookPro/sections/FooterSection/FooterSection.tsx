@@ -15,8 +15,8 @@ const productLinks = [
 ];
 
 const connectLinks = [
-  { label: "Instagram" },
-  { label: "Facebook" },
+  { label: "Instagram", href: "https://www.instagram.com/winnazworld/?hl=en" },
+  { label: "Facebook", href: "https://www.facebook.com/winnazworld/" },
 ];
 
 export const FooterSection = (): JSX.Element => {
@@ -98,7 +98,9 @@ export const FooterSection = (): JSX.Element => {
                 {connectLinks.map((link, index) => (
                   <li key={index}>
                     <a
-                      href="#"
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="[font-family:'Barlow',Helvetica] font-medium text-white text-base sm:text-lg hover:opacity-80 transition-opacity"
                     >
                       {link.label}
@@ -157,7 +159,9 @@ export const FooterSection = (): JSX.Element => {
               {connectLinks.map((link, index) => (
                 <li key={index}>
                   <a
-                    href="#"
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="[font-family:'Barlow',Helvetica] font-medium text-white text-lg sm:text-xl lg:text-[18px] hover:opacity-80 transition-opacity"
                   >
                     {link.label}
@@ -199,7 +203,7 @@ export const FooterSection = (): JSX.Element => {
           {/* Desktop Layout - Hidden on mobile/tablet */}
           <div className="items-center hidden gap-10 lg:flex" style={{ marginLeft: '501px' }}>
             <div className="[font-family:'Barlow',Helvetica] font-medium text-white text-lg sm:text-xl lg:text-[18px]">
-              © Wheeliez 2025
+              © Wheeliez 2026
             </div>
             <div className="[font-family:'Barlow',Helvetica] font-medium text-white text-lg sm:text-xl lg:text-[18px]">
               Privacy Policy
