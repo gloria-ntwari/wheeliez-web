@@ -47,7 +47,7 @@ export const MacbookPro = (): JSX.Element => {
           {/* Section header */}
           <div className="flex flex-col items-center mb-8 text-center sm:mb-10 md:mb-12 lg:gap-4">
             <div className="[font-family:'Barlow',Helvetica] font-semibold text-white text-sm sm:text-base tracking-[0] uppercase lg:text-[22px]">WHY WHEELIEZ</div>
-            <h2 className="[font-family:'Barlow',Helvetica] font-bold text-[#fcc809] text-2xl sm:text-3xl md:text-4xl lg:text-[43px] leading-tight mt-2">CHANGE THE WAY YOU CHIP</h2>
+            <h2 className="[font-family:'Barlow',Helvetica] font-bold text-[#fcc809] text-2xl sm:text-3xl md:text-4xl lg:text-[43px] leading-tight mt-2">A FUN WAY TO SNACK</h2>
           </div>
           <div className="flex flex-col items-center justify-between gap-8 md:flex-row md:gap-4 ">
             {/* Left side - text block */}
@@ -141,7 +141,7 @@ export const MacbookPro = (): JSX.Element => {
 
       <section id="newsletter-section" className="relative w-full">
         <img
-          className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[620px] object-center"
+          className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[620px] object-cover"
           alt="Rectangle"
           src="/wheeliz.jpeg"
         />

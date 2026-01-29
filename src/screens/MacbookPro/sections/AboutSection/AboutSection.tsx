@@ -8,7 +8,7 @@ export const AboutSection = (): JSX.Element => {
           <h2 className="w-full max-w-[691px] [font-family:'Barlow',Helvetica] font-semibold text-black text-2xl sm:text-3xl md:text-4xl lg:text-[43px] tracking-[-0.90px] leading-tight text-center lg:text-left">
             TAKE A BITE OUTTA
             <br />
-            LIFE
+             LIFE
           </h2>
 
            <p className="[font-family:'Barlow',Helvetica] font-normal text-black text-sm sm:text-base md:text-lg lg:text-[18px] tracking-[0] leading-relaxed text-left">
@@ -23,9 +23,9 @@ export const AboutSection = (): JSX.Element => {
         <div className="absolute top-0 left-1/2 lg:left-[245px] w-32 sm:w-40 md:w-48 lg:w-52 h-full bg-[#68161c] transform -translate-x-1/2 lg:translate-x-0" />
 
         <img
-          className="absolute top-4 sm:top-6 md:top-8 lg:top-[41px] left-0 w-full max-w-[368px] h-[250px] sm:h-[300px] md:h-[350px] lg:h-[382px] object-cover"
+          className="absolute top-4 sm:top-6 md:top-8 lg:top-[41px] left-0 w-full max-w-[420px] h-[250px] sm:h-[300px] md:h-[350px] lg:h-[382px] object-cover"
           alt="Rectangle"
-          src="/rectangle-337.svg"
+          src="/wheeliz.jpeg"
         />
       </div>
     </section>
