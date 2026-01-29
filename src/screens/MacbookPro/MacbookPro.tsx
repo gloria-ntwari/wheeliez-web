@@ -62,7 +62,7 @@ export const MacbookPro = (): JSX.Element => {
                     {item.title}
                   </div>
 
-                  <div className="[font-family:'Barlow',Helvetica] font-medium text-white text-base sm:text-lg md:text-[18px] tracking-[-0px] leading-relaxed lg:text-[18px] max-w-[320px] sm:max-w-[340px] md:max-w-[360px] whitespace-nowrap">
+                  <div className="[font-family:'Barlow',Helvetica] font-medium text-white text-base sm:text-lg md:text-[18px] tracking-[-0px] leading-relaxed lg:text-[18px] max-w-[320px] sm:max-w-[340px] md:max-w-[360px] whitespace-normal lg:whitespace-nowrap">
                     {item.description.split("\n").map((line, i) => (
                       <React.Fragment key={i}>
                         {line}
@@ -94,7 +94,7 @@ export const MacbookPro = (): JSX.Element => {
                     {item.title}
                   </div>
 
-                  <div className="[font-family:'Barlow',Helvetica] font-medium text-white text-base sm:text-lg md:text-[18px] tracking-[-0px] leading-relaxed lg:text-[18px] max-w-[320px] sm:max-w-[340px] md:max-w-[360px] whitespace-nowrap">
+                  <div className="[font-family:'Barlow',Helvetica] font-medium text-white text-base sm:text-lg md:text-[18px] tracking-[-0px] leading-relaxed lg:text-[18px] max-w-[320px] sm:max-w-[340px] md:max-w-[360px] whitespace-normal lg:whitespace-nowrap">
                     {item.description.split("\n").map((line, i) => (
                       <React.Fragment key={i}>
                         {line}
