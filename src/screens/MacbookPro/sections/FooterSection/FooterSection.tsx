@@ -177,7 +177,7 @@ export const FooterSection = (): JSX.Element => {
           {/* Mobile/Tablet Layout */}
           <div className="flex flex-col items-center gap-4 sm:flex-row lg:hidden">
             <div className="[font-family:'Barlow',Helvetica] font-medium text-white text-base sm:text-lg text-center">
-              © Wheeliez 2025
+              © Wheeliez 2026
             </div>
             <div className="[font-family:'Barlow',Helvetica] font-medium text-white text-base sm:text-lg text-center ">
               Privacy Policy
